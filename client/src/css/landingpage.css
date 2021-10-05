@@ -1,0 +1,38 @@
+.main {
+    background-color: #f4f0ec;  
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.wrapping-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.banner-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 1000px;
+    margin: 10px;
+    justify-content: center;
+    line-height: 28px;
+    font-size: 10px;
+}
+.new-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f0ec;
+    justify-content: center;
+}
+.regular-container {
+    display: flex;
+    background-color: #f4f0ec;
+    width: 100px;
+    margin: 10px;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 2em;
+}
