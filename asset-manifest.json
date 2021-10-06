@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/estebanpena/First-Website-Using-React.git/static/css/main.1d037a9f.chunk.css",
-    "main.js": "/estebanpena/First-Website-Using-React.git/static/js/main.cd589e42.chunk.js",
-    "main.js.map": "/estebanpena/First-Website-Using-React.git/static/js/main.cd589e42.chunk.js.map",
-    "runtime-main.js": "/estebanpena/First-Website-Using-React.git/static/js/runtime-main.00f4d3d8.js",
-    "runtime-main.js.map": "/estebanpena/First-Website-Using-React.git/static/js/runtime-main.00f4d3d8.js.map",
+    "main.js": "/estebanpena/First-Website-Using-React.git/static/js/main.a1556b03.chunk.js",
+    "main.js.map": "/estebanpena/First-Website-Using-React.git/static/js/main.a1556b03.chunk.js.map",
+    "runtime-main.js": "/estebanpena/First-Website-Using-React.git/static/js/runtime-main.6ef61672.js",
+    "runtime-main.js.map": "/estebanpena/First-Website-Using-React.git/static/js/runtime-main.6ef61672.js.map",
     "static/css/2.2e6d1f6d.chunk.css": "/estebanpena/First-Website-Using-React.git/static/css/2.2e6d1f6d.chunk.css",
-    "static/js/2.b5d0bc63.chunk.js": "/estebanpena/First-Website-Using-React.git/static/js/2.b5d0bc63.chunk.js",
-    "static/js/2.b5d0bc63.chunk.js.map": "/estebanpena/First-Website-Using-React.git/static/js/2.b5d0bc63.chunk.js.map",
+    "static/js/2.cd4850ba.chunk.js": "/estebanpena/First-Website-Using-React.git/static/js/2.cd4850ba.chunk.js",
+    "static/js/2.cd4850ba.chunk.js.map": "/estebanpena/First-Website-Using-React.git/static/js/2.cd4850ba.chunk.js.map",
     "index.html": "/estebanpena/First-Website-Using-React.git/index.html",
     "static/css/2.2e6d1f6d.chunk.css.map": "/estebanpena/First-Website-Using-React.git/static/css/2.2e6d1f6d.chunk.css.map",
     "static/css/main.1d037a9f.chunk.css.map": "/estebanpena/First-Website-Using-React.git/static/css/main.1d037a9f.chunk.css.map",
-    "static/js/2.b5d0bc63.chunk.js.LICENSE.txt": "/estebanpena/First-Website-Using-React.git/static/js/2.b5d0bc63.chunk.js.LICENSE.txt"
+    "static/js/2.cd4850ba.chunk.js.LICENSE.txt": "/estebanpena/First-Website-Using-React.git/static/js/2.cd4850ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.00f4d3d8.js",
+    "static/js/runtime-main.6ef61672.js",
     "static/css/2.2e6d1f6d.chunk.css",
-    "static/js/2.b5d0bc63.chunk.js",
+    "static/js/2.cd4850ba.chunk.js",
     "static/css/main.1d037a9f.chunk.css",
-    "static/js/main.cd589e42.chunk.js"
+    "static/js/main.a1556b03.chunk.js"
   ]
 }
