@@ -1,6 +1,6 @@
 {
-  "name": "first-website-using-react.git",
-  "homepage": "https://github.com/estebanpena/First-Website-Using-React.git",
+  "name": "first-website-using-react",
+  "homepage": "https://estebanpena.github.io/First-Website-Using-React/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
