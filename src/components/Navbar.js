@@ -8,12 +8,12 @@ class Navbar extends Component {
             <div className='primary--nav'>
               <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <ReactBootstrap.Container>
-                <ReactBootstrap.Navbar.Brand href="/">.informat*ve</ReactBootstrap.Navbar.Brand>
+                <ReactBootstrap.Navbar.Brand href="/First-Website-Using-React">.informat*ve</ReactBootstrap.Navbar.Brand>
                 <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
                   <ReactBootstrap.Nav className="me-auto">
-                    <ReactBootstrap.Nav.Link href="/login">Log In</ReactBootstrap.Nav.Link>
-                    <ReactBootstrap.Nav.Link href="/register">Sign Up</ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/First-Website-Using-React/login">Log In</ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/First-Website-Using-React/register">Sign Up</ReactBootstrap.Nav.Link>
                     <ReactBootstrap.NavDropdown title="More" id="collasible-nav-dropdown">
                       <ReactBootstrap.NavDropdown.Item href="#action/3.1">Action</ReactBootstrap.NavDropdown.Item>
                       <ReactBootstrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootstrap.NavDropdown.Item>
@@ -23,9 +23,9 @@ class Navbar extends Component {
                     </ReactBootstrap.NavDropdown>
                   </ReactBootstrap.Nav>
                   <ReactBootstrap.Nav>
-                    <ReactBootstrap.Nav.Link href="/login">Log In</ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/First-Website-Using-React/login">Log In</ReactBootstrap.Nav.Link>
                     <ReactBootstrap.Nav.Link  
-                      href="/register">
+                      href="/First-Website-Using-React/register">
                       Sign Up
                     </ReactBootstrap.Nav.Link>
                     </ReactBootstrap.Nav>
