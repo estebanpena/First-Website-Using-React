@@ -28,7 +28,7 @@ class Login extends Component {
                 password:this.state.password
             })
         })
-        this.props.history.push('/');
+        this.props.hashHistory.push('/');
     } 
 
     render() {
