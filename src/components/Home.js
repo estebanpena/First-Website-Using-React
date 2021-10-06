@@ -16,11 +16,11 @@ class Home extends Component {
                         <h1 className="tc mt2 w-100 f-subheadline-l lh-copy lh-title-l measure fw6">Example Websiste</h1>
                     </div>
                     <div className="tc pa0">
-                        <p>worry less about the backend and more about the frontend</p>
+                        <p>please work this time</p>
                     </div>
                     <div>
                         <div>
-                            <img src="https://memegenerator.net/img/images/15998360/angry-pepe-with-gun-is-crying.jpg" />
+                            
                         </div>
                     </div>
                 </div>
