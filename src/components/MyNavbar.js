@@ -5,7 +5,7 @@ import { Nav } from "react-bootstrap";
 import { NavDropdown } from "react-bootstrap";
 
 
-class Navbar extends Component {
+class MyNavbar extends Component {
     render() {
         return(
             <div className='primary--nav'>
@@ -40,4 +40,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default MyNavbar;

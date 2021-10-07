@@ -3,12 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './routes';
-import Navbar from './components/Navbar';
+import MyNavbar from './components/MyNavbar';
 
 const App = () => {
   return (
     <Router basename='/React'>
-        <Navbar />
+        <MyNavbar />
         <Routes />  
     </Router>
   ); 
