@@ -10,7 +10,6 @@ class MyNavbar extends Component {
         return(
             <div className='primary--nav'>
               <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
                 <Navbar.Brand href="/First-Website-Using-React">.informat*ve</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,7 +32,6 @@ class MyNavbar extends Component {
                     </Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
-                </Container>
               </Navbar>
             </div>
         );
