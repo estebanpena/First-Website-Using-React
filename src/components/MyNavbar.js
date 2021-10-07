@@ -10,12 +10,12 @@ class MyNavbar extends Component {
         return(
             <div className='primary--nav'>
               <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/First-Website-Using-React">.informat*ve</Navbar.Brand>
+                <Navbar.Brand href="/">.informat*ve</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link href="/First-Website-Using-React/login">Log In</Nav.Link>
-                    <Nav.Link href="/First-Website-Using-React/register">Sign Up</Nav.Link>
+                    <Nav.Link href="/login">Log In</Nav.Link>
+                    <Nav.Link href="/register">Sign Up</Nav.Link>
                     <NavDropdown title="More" id="collasible-nav-dropdown">
                       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -25,9 +25,9 @@ class MyNavbar extends Component {
                     </NavDropdown>
                   </Nav>
                   <Nav>
-                    <Nav.Link href="/First-Website-Using-React/login">Log In</Nav.Link>
+                    <Nav.Link href="/login">Log In</Nav.Link>
                     <Nav.Link  
-                      href="/First-Website-Using-React/register">
+                      href="/register">
                       Sign Up
                     </Nav.Link>
                     </Nav>
