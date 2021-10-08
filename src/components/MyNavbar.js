@@ -29,10 +29,7 @@ class MyNavbar extends Component {
 
                             <ReactBootstrap.Nav>
                                 <ReactBootstrap.Nav.Link href="/login">Log In</ReactBootstrap.Nav.Link>
-                                <ReactBootstrap.Nav.Link  
-                                    href="/register">
-                                    Sign Up
-                                </ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link eventKey={2} href="/register">Sign Up</ReactBootstrap.Nav.Link>
                             </ReactBootstrap.Nav>
                         </ReactBootstrap.Navbar.Collapse>
                     </ReactBootstrap.Container>
