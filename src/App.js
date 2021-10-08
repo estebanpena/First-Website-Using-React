@@ -7,7 +7,7 @@ import MyNavbar from './components/MyNavbar';
 
 const App = () => {
   return (
-    <Router basename="/first-website-using-react/">
+    <Router basename="/first-website-using-react">
         <MyNavbar />
         <Routes /> 
     </Router>
