@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/first-website-using-react/static/css/main.1d037a9f.chunk.css",
-    "main.js": "/first-website-using-react/static/js/main.79c3e88f.chunk.js",
-    "main.js.map": "/first-website-using-react/static/js/main.79c3e88f.chunk.js.map",
+    "main.js": "/first-website-using-react/static/js/main.05b261b3.chunk.js",
+    "main.js.map": "/first-website-using-react/static/js/main.05b261b3.chunk.js.map",
     "runtime-main.js": "/first-website-using-react/static/js/runtime-main.241e82be.js",
     "runtime-main.js.map": "/first-website-using-react/static/js/runtime-main.241e82be.js.map",
     "static/css/2.2e6d1f6d.chunk.css": "/first-website-using-react/static/css/2.2e6d1f6d.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.2e6d1f6d.chunk.css",
     "static/js/2.aeee00b0.chunk.js",
     "static/css/main.1d037a9f.chunk.css",
-    "static/js/main.79c3e88f.chunk.js"
+    "static/js/main.05b261b3.chunk.js"
   ]
 }
