@@ -11,9 +11,9 @@ const Routes = () => {
     return (
         <Router>
             <div>
-                <Route exact path='/first-website-using-react' component={Home} />
-                <Route path='/first-website-using-react/login' component={Login} />
-                <Route path='/first-website-using-react/register' component={Register} />
+                <Route exact path='/' component={Home} />
+                <Route path='/login' component={Login} />
+                <Route path='/register' component={Register} />
             </div>
         </Router>
     );
