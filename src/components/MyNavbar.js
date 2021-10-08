@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactBootstrap from 'react-bootstrap';
+import * as ReactBootstrap from 'react-bootstrap';
 // import Navbar from "react-bootstrap/Navbar";
 // import { Nav } from "react-bootstrap";
 // import { NavDropdown } from "react-bootstrap";
