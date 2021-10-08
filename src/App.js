@@ -7,7 +7,7 @@ import MyNavbar from './components/MyNavbar';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <MyNavbar />
         <Routes /> 
     </Router>
