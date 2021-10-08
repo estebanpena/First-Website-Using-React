@@ -8,8 +8,8 @@ import MyNavbar from './components/MyNavbar';
 const App = () => {
   return (
     <Router basename='/React'>
-        <Routes /> 
         <MyNavbar />
+        <Routes /> 
     </Router>
   ); 
 }
