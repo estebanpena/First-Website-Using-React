@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-//import * as ReactBootstrap from 'react-bootstrap';
-import Navbar from "react-bootstrap/Navbar";
-import { Nav } from "react-bootstrap";
-import { NavDropdown } from "react-bootstrap";
+import ReactBootstrap from 'react-bootstrap';
+// import Navbar from "react-bootstrap/Navbar";
+// import { Nav } from "react-bootstrap";
+// import { NavDropdown } from "react-bootstrap";
 
 
 
@@ -10,30 +10,30 @@ class MyNavbar extends Component {
     render() {
         return(
             <div className='primary--nav'>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Container>
-                        <Navbar.Brand href="/first-website-using-react">.informat*ve</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link href="/first-website-using-react/login">Log In</Nav.Link>
-                                <Nav.Link href="/first-website-using-react/register">Sign Up</Nav.Link>
-                                <NavDropdown title="More" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                                </NavDropdown>
-                            </Nav>
+                <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                    <ReactBootstrap.Container>
+                        <ReactBootstrap.Navbar.Brand href="/first-website-using-react">.informat*ve</ReactBootstrap.Navbar.Brand>
+                        <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
+                            <ReactBootstrap.Nav className="me-auto">
+                                <ReactBootstrap.Nav.Link href="/first-website-using-react/login">Log In</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link href="/first-website-using-react/register">Sign Up</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.NavDropdown title="More" id="collasible-nav-dropdown">
+                                    <ReactBootstrap.NavDropdown.Item href="#action/3.1">Action</ReactBootstrap.NavDropdown.Item>
+                                    <ReactBootstrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootstrap.NavDropdown.Item>
+                                    <ReactBootstrap.NavDropdown.Item href="#action/3.3">Something</ReactBootstrap.NavDropdown.Item>
+                                    <ReactBootstrap.NavDropdown.Divider />
+                                    <ReactBootstrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootstrap.NavDropdown.Item>
+                                </ReactBootstrap.NavDropdown>
+                            </ReactBootstrap.Nav>
 
-                            <Nav>
-                                <Nav.Link href="/first-website-using-react/login">Log In</Nav.Link>
-                                <Nav.Link eventKey={2} href="/first-website-using-react/register">Sign Up</Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
+                            <ReactBootstrap.Nav>
+                                <ReactBootstrap.Nav.Link href="/first-website-using-react/login">Log In</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link eventKey={2} href="/first-website-using-react/register">Sign Up</ReactBootstrap.Nav.Link>
+                            </ReactBootstrap.Nav>
+                        </ReactBootstrap.Navbar.Collapse>
+                    </ReactBootstrap.Container>
+                </ReactBootstrap.Navbar>
             </div>
         );
     }
