@@ -12,12 +12,12 @@ class MyNavbar extends Component {
             <div className='primary--nav'>
                 <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <ReactBootstrap.Container>
-                        <ReactBootstrap.Navbar.Brand href="/first-website-using-react">.informat*ve</ReactBootstrap.Navbar.Brand>
+                        <ReactBootstrap.Navbar.Brand href="/">.informat*ve</ReactBootstrap.Navbar.Brand>
                         <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
                             <ReactBootstrap.Nav className="me-auto">
-                                <ReactBootstrap.Nav.Link href="/first-website-using-react/login">Log In</ReactBootstrap.Nav.Link>
-                                <ReactBootstrap.Nav.Link href="/first-website-using-react/register">Sign Up</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link href="/login">Log In</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link href="/register">Sign Up</ReactBootstrap.Nav.Link>
                                 <ReactBootstrap.NavDropdown title="More" id="collasible-nav-dropdown">
                                     <ReactBootstrap.NavDropdown.Item href="#action/3.1">Action</ReactBootstrap.NavDropdown.Item>
                                     <ReactBootstrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootstrap.NavDropdown.Item>
@@ -28,9 +28,9 @@ class MyNavbar extends Component {
                             </ReactBootstrap.Nav>
 
                             <ReactBootstrap.Nav>
-                                <ReactBootstrap.Nav.Link href="/first-website-using-react/login">Log In</ReactBootstrap.Nav.Link>
+                                <ReactBootstrap.Nav.Link href="/login">Log In</ReactBootstrap.Nav.Link>
                                 <ReactBootstrap.Nav.Link  
-                                    href="/first-website-using-react/register">
+                                    href="/register">
                                     Sign Up
                                 </ReactBootstrap.Nav.Link>
                             </ReactBootstrap.Nav>
